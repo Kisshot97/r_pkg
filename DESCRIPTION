@@ -1,0 +1,17 @@
+Package: moe.2023
+Title: moemoemoe (moe)
+Version: 0.0.5
+Authors@R: 
+    person("HE", "GUAN", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: abcdefg.
+License: GPL (>= 2)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Improt:
+    raprt
+Suggests:
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
