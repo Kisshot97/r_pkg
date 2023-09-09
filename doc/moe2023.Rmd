@@ -1,0 +1,20 @@
+---
+title: "moe2023"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{moe2023}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(moe.2023)
+momo(1)
+```
